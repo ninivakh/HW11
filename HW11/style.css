@@ -1,0 +1,112 @@
+@font-face{
+    font-family: 'Work Sans';
+    src: url(./fonts/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Space Mono';
+    src: url(./fonts/SpaceMono-Regular.ttf);
+}
+nav{
+    background: #2B2B2B;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px;
+}
+.container-fluid{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#NFT > a{
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+}
+li>a{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+}
+#signup> button{
+    background: #A259FF;
+border-radius: 20px;
+width: 152px;
+height: 60px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-color: transparent;
+}
+#signup> button> p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+
+color: #FFFFFF;
+}
+.rocket{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 50px;
+gap: 12px;
+
+width: 224px;
+height: 60px;
+background: #A259FF;
+border-radius: 20px;
+border-color: transparent;
+}
+.rocket> p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+
+color: #FFFFFF;
+}
+#sale>p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 23.99px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.content1> h2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 110%;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.content1>p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
