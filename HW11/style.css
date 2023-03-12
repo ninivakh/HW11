@@ -6,26 +6,21 @@
     font-family: 'Space Mono';
     src: url(./fonts/SpaceMono-Regular.ttf);
 }
-nav{
-    background: #2B2B2B;
-    display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 20px 50px;
+body{
+    background-color: #2B2B2B;
 }
 .container-fluid{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
-#NFT > a{
+#NFT{
     color: #FFFFFF;
     font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
 }
-li>a{
+#li-a{
     font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
@@ -35,42 +30,13 @@ text-align: center;
 color: #FFFFFF;
 text-decoration: none;
 }
-#signup> button{
-    background: #A259FF;
-border-radius: 20px;
-width: 152px;
-height: 60px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-border-color: transparent;
-}
-#signup> button> p{
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 140%;
-text-align: center;
-
-color: #FFFFFF;
-}
-.rocket{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+#rocket{
 padding: 0px 50px;
-gap: 12px;
-
 width: 224px;
 height: 60px;
 background: #A259FF;
 border-radius: 20px;
 border-color: transparent;
-}
-.rocket> p{
     font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
@@ -78,8 +44,8 @@ font-size: 16px;
 line-height: 140%;
 text-align: center;
 
-color: #FFFFFF;
-}
+color: #FFFFFF;}
+
 #sale>p{
     font-family: 'Work Sans';
 font-style: normal;
@@ -109,4 +75,26 @@ font-size: 22px;
 line-height: 160%;
 text-transform: capitalize;
 color: #FFFFFF;
+}
+#navbarNav{
+    margin-left: auto;
+    
+}
+.navbar-nav{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#btn{
+padding: 0px 30px;
+width: 152px;
+height: 60px;
+background: #A259FF;
+border-radius: 20px;
+color: #FFFFFF;
+border-color: transparent;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
 }
